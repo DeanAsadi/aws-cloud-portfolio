@@ -2,9 +2,15 @@
 
 The five existing hosting resources were imported with **zero infrastructure additions, changes or deletions**. The import blocks are retained as documentation of adoption. `hosting.tf` was generated from actual provider reads and reviewed; `prevent_destroy` guards the imported resources. Account-specific inputs are ignored local files, not secrets embedded in committed configuration.
 
-## Bootstrap
+## Current environment
+
+The approved bootstrap and state migration are complete. Copy `backend.hcl.example` to ignored `backend.hcl`, set the actual existing private state bucket and initialize with `terraform init -backend-config=backend.hcl`. Supply the ignored operator variable values separately. Run a refreshed plan before proposing any change.
+
+## Initial adoption sequence
 
 Use a local operator session that is authorized to manage the named hosting and IAM resources. Do not export credentials into files or paste them into the repository.
+
+The following sequence records the one-time adoption process. For a fresh bootstrap, the backend declaration must be temporarily omitted until its bucket exists. Do not rerun bootstrap against the live environment.
 
 1. Review `terraform.tfvars.example` and create ignored `deployment.auto.tfvars` with the existing WAF ARN, a unique state bucket, and the exact GitHub main-branch OIDC subject. New GitHub repositories can use immutable owner/repository IDs in the subject; do not assume the legacy format.
 2. Initialize without a remote backend during first adoption. For an existing environment, review the import plan before applying it.

@@ -1,0 +1,37 @@
+[
+  {
+    "action": "s3:PutObject",
+    "resource_scope": "portfolio",
+    "result": "allowed"
+  },
+  {
+    "action": "s3:PutObject",
+    "resource_scope": "portfolio",
+    "result": "allowed"
+  },
+  {
+    "action": "s3:DeleteObject",
+    "resource_scope": "portfolio",
+    "result": "implicitDeny"
+  },
+  {
+    "action": "s3:GetObject",
+    "resource_scope": "state bucket",
+    "result": "implicitDeny"
+  },
+  {
+    "action": "cloudfront:CreateInvalidation",
+    "resource_scope": "infrastructure",
+    "result": "allowed"
+  },
+  {
+    "action": "cloudfront:UpdateDistribution",
+    "resource_scope": "infrastructure",
+    "result": "implicitDeny"
+  },
+  {
+    "action": "iam:CreateRole",
+    "resource_scope": "infrastructure",
+    "result": "implicitDeny"
+  }
+]

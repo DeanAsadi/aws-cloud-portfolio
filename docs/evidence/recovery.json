@@ -1,0 +1,71 @@
+{
+  "release": "da191d3b3affcff4ba3558d9f7f0f0f79282fc56",
+  "invalidation": "IDX4BT9A0I17EF4TTPXLKG3ZM9",
+  "published_files": 12,
+  "mode": "deploy",
+  "verified_at": "2026-10-30T22:57:39.141109+00:00",
+  "public_checks": [
+    {
+      "path": "releases/da191d3b3affcff4ba3558d9f7f0f0f79282fc56/app.js",
+      "status": 200,
+      "sha256": "6aadd895aa4682c7a853f03291eff38f813a122094635de5b6c17bf96253989e"
+    },
+    {
+      "path": "releases/da191d3b3affcff4ba3558d9f7f0f0f79282fc56/assets/AWS-Portfolio-Hosting-Case-Study.pdf",
+      "status": 200,
+      "sha256": "02ca2cc1d7d2fae126423189f636ef580d8e354cc5f8a82f5478cb6096c3046b"
+    },
+    {
+      "path": "releases/da191d3b3affcff4ba3558d9f7f0f0f79282fc56/assets/CloudBiz-VPN-Evidence.zip",
+      "status": 200,
+      "sha256": "15a6282883ca0b7a0dbd8967d5e11d75ace2b15cc29dd3b77cfaf868350806a1"
+    },
+    {
+      "path": "releases/da191d3b3affcff4ba3558d9f7f0f0f79282fc56/assets/Dean-Eseddi-Case-Studies.pdf",
+      "status": 200,
+      "sha256": "d6616577bbbbafc561a845cbf51190b66227c8c34853f22b69e6418b81ef0398"
+    },
+    {
+      "path": "releases/da191d3b3affcff4ba3558d9f7f0f0f79282fc56/assets/Dean-Eseddi-Resume.pdf",
+      "status": 200,
+      "sha256": "98be7018c9d618d26a271185bf9179d64225d064d5745f8fcb0d07f8b6740866"
+    },
+    {
+      "path": "releases/da191d3b3affcff4ba3558d9f7f0f0f79282fc56/assets/aws-tunnels-recovered.png",
+      "status": 200,
+      "sha256": "a4fe3189fb5298d81d291159e8dde11e5aa5753da160c03d4ae17551dcac6f23"
+    },
+    {
+      "path": "releases/da191d3b3affcff4ba3558d9f7f0f0f79282fc56/assets/failover-http.png",
+      "status": 200,
+      "sha256": "6f67f670d94df0e0465670e76d796c67d31651251e37ea153cc889c1b2ac7be8"
+    },
+    {
+      "path": "releases/da191d3b3affcff4ba3558d9f7f0f0f79282fc56/assets/favicon.svg",
+      "status": 200,
+      "sha256": "675b6ec961ca57cb970d572ee6ef6adda35c6b89db870b9fa58318e4912cee60"
+    },
+    {
+      "path": "releases/da191d3b3affcff4ba3558d9f7f0f0f79282fc56/assets/hosting-architecture.svg",
+      "status": 200,
+      "sha256": "d3efa2b0988d9909a7bac2fcbe261fd94720bdc7a2cac32a1844e5149d0456c2"
+    },
+    {
+      "path": "releases/da191d3b3affcff4ba3558d9f7f0f0f79282fc56/assets/vpn-architecture.svg",
+      "status": 200,
+      "sha256": "8f9a581145acecda2482d1baf8b9a2a5047f67e9d73f5184510e0ed83127497a"
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "sha256": "c8d202c47fbdbc512e7f2475f485a892983d05d423e0b4c47c0cac7f159e0561"
+    },
+    {
+      "path": "releases/da191d3b3affcff4ba3558d9f7f0f0f79282fc56/style.css",
+      "status": 200,
+      "sha256": "44b656bc2708fa2a7c97cf75f4bb6bb03cefc76f0db11de10769eca3bfba4101"
+    }
+  ],
+  "url": "https://d25v5xu84onas.cloudfront.net/",
+  "run_id": "41141353474"
+}
