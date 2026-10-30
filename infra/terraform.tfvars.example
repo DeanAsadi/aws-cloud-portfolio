@@ -1,0 +1,3 @@
+existing_web_acl_arn = "YOUR_EXISTING_CLOUDFRONT_WAF_ARN"
+state_bucket_name = "YOUR_UNIQUE_PRIVATE_STATE_BUCKET"
+github_subject = "repo:OWNER@OWNER_ID/REPO@REPO_ID:ref:refs/heads/main"
